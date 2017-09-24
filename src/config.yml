@@ -1,0 +1,18 @@
+prefix: '&8✦&b&l Candy&8 ✦&7 '
+undisguise-message: 'The affects of this candy have worn off!'
+
+
+hand:
+  foods:
+    COOKED_CHICKEN:
+      transformation: "COW"
+      transformation-message: "This candy was poisoned, you've become a &bcow&7!"
+      duration: 30
+      effects:
+      - SPEED
+      - REGENERATION
+    COOKED_BEEF:
+      transformation: "CHICKEN"
+      transformation-message: "This candy was poisoned, you've become a &bchicken&7!"
+      duration: 30
+      effects:
